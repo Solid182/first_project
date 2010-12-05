@@ -1,3 +1,5 @@
+#Variation of programm with "While" cycle (to exit programm insert "PNH")
 n=raw_input("What is your name: ")
-print "Hello ", n
-raw_input()
+while n != "PNH":
+	print "Hello ", n
+	n=raw_input("What is your name: ")
